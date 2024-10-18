@@ -121,11 +121,66 @@ TYPES OF SQL COMMANDS:
 
 
 * =====> arteristic key, in sql this key indicate " all " 
+  
+
+  <=========== 10/19/2024 =============>
 
 
 
 
 
+Primary Key🔑
+  => Its a column  ( or a set of columns) that uniquely identifies each row.
+ 
+  => There is only 1️⃣ Primary Key and Its should not be NOT NULL.
+
+  UNIQUE, NOT NULL
 
 
+Foreign Key🗝️
 
+ => foreign key is a column in a table that refers to the primary in another table.
+
+ => There can be Multiple foreign keys in a table.
+
+ => Foreign key can have duplicate and null values.
+
+Constraints 📏 
+  =>  Constraints are used to specify some rule to the data in a table.
+
+  1. NOT NULL
+
+      => Columns cannot have null values.
+     syn:  column_name datatype NOT NULL
+
+  2. UNIQUE 
+
+     => All values in a column are different. 
+     syn: column_name datatype UNIQUE
+
+  3. PRIMARY KEY
+     => column that uniquely identifies each row in a table.
+    syn: column_name datatype PRIMARY KEY
+
+    OR 
+
+    PRIMARY KEY(column_name)
+
+
+    eg: 
+    CREATE TABLE dummy(
+        id INT,
+        name VARCHAR(34) NOT NULL,
+        age INT NOT NULL,
+        PRIMARY KEY (id)
+    )
+
+    or 
+
+    CREATE TABLE dummy(
+        id INT NOT NULL,
+        aname VARCHAR(34) NOT NULL,
+        age INT NOT NULL,
+    )
+
+ 
