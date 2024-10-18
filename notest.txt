@@ -1,0 +1,131 @@
+Database =>
+    Collection of data in a format that can easily accessible.
+
+    A software application that is used to manage our database is called a (Database Management System).
+
+
+    user => DBMS => Database
+
+    Types of Database;
+    Relational Database                  Non-Relational Database
+
+    1. Data stored in tables,            2.Data stored in some other forms
+
+
+
+
+    we use SQL to use work with relational DBMS
+    RDBMS =>  MySQL
+
+    eg: PostgreSQL, SQL Server, MySQL, Oracle, 
+
+
+SQL = Structured Query Language.
+SQL is a programming language that is used to interact with the relational database.
+
+
+Its used to perform CRUD operations
+
+1.Create  => table schema design
+2.Read
+3.Update
+4.Delete
+
+
+SEQUEL= Structured English Query Language. //IBM
+SQL = Structured Query Language
+ 
+
+ Database related Querries✅
+
+
+<============== CREATING A DATABASE ==============>
+
+      Create Database database_name 
+                     OR
+     CREATE DATABASE IF NOT EXISTS database_name ✅
+
+<============== DELETING   A DATABASE ==============>
+
+         Drop Database database_name 
+                    OR
+    DROP DATABASE IF NOT EXISTS database_name ✅
+
+
+
+ After creating DB then use this query before creating tables 
+
+   =>    "User database_name;"
+
+
+Lets Design tables
+===> How to create a table?
+
+CREATE TABLE table_name(
+    column_name1 datatype constraint,
+    column_name2 datatype constraint,
+    column_name3 datatype constraint,
+)
+
+
+How to delete a table?
+  DROP TABLE table_name;
+
+to see table structure? 
+ DESCRIBE table_name;
+
+to add a new column?
+
+  ALTER TABLE table_name ADD COLUMN column_name data_type constraint;
+
+
+to delete a new column?
+  ALTER TABLE table_name DROP COLUMN column_name;
+
+   
+    
+to insert values 
+
+INSERT INTO   table_name VALUES(
+    value1, value2, value3
+);
+
+
+To show all the data in the Table
+ SELECT * FROM table_name;
+
+SQL DATATYPES
+
+
+signed and Unsigned 
+TININT UNSIGNED(0 TO 255)
+TINYINT (-128 to 127)
+
+
+TYPES OF SQL COMMANDS:
+
+1. Data Definition Language (DDL) 😎
+    CREATE, ALTER, RENAME, DROP, TRUNCATE, 
+
+2. Data Query Language (DQL) 😊
+    SELECT
+
+3. Data Manipulation Language (DML) 🙃
+    INSERT, UPDATE , DELETE
+
+4. Data Control Language (DCL)
+    GRANT & REVOKE
+
+5. Transaction Control Language(TCL)
+    start Transaction, COMMIT, ROLLBACK
+
+
+* =====> arteristic key, in sql this key indicate " all " 
+
+
+
+
+
+
+
+
