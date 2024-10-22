@@ -308,3 +308,5 @@ Aggregate Functions
    5. AVG(),
 
  Group by clause  
+
+ Ha ha
