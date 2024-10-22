@@ -289,7 +289,22 @@ USING OPERATORS IN WHERE clause
 
 
    5. LIMIT 3 => limit the result to three.
+
+   imp
+
    6. ORDER BY clause
-     ASC => Ascending order
-     DESC => Descending order
+     ASC => Ascending order (low to high)
+     DESC => Descending order( high to low)
    
+ 
+Aggregate Functions
+
+  Aggregate function performs a calculation on a set of values , and returns a single value.
+
+   1. COUNT(),
+   2. MAX(),
+   3. MIN(),
+   4. SUM(),
+   5. AVG(),
+
+ Group by clause  
